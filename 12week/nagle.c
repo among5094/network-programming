@@ -5,7 +5,7 @@
 // 11월 21일 목요일 - 실습01) Nagle 옵션 활성화/비활성화 하기
 
 #define NAGLE_CONTROL FALSE // Nagle 알고리즘 제어 (사용 여부 설정)
-#define MAX_TRANSMIT 4      // 메시지 전송 반복 횟수
+#define MAX_TRANSMIT 4 // 메시지 전송 반복 횟수
 
 #define BUF_SIZE 200 // 송신 버퍼 크기
 #define BUF_RECV_SIZE 1024 // 수신 버퍼 크기
